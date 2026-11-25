@@ -135,6 +135,13 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
 
+        'pujas' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/pujas.log'),
+            'level' => 'info',
+        ],
+
+
     ],
 
 ];
